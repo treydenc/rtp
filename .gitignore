@@ -1,0 +1,46 @@
+# MacOS specific files
+.DS_Store
+
+# Linux specific files
+*~
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+
+# OpenFrameworks build and user-specific directories
+**/bin/
+**/obj/
+**/*.user
+**/*.userprefs
+
+# IDE-specific files (if using Xcode, Visual Studio, etc.)
+**/.vscode/
+**/.vs/
+**/.idea/
+**/*.xcodeproj/
+**/*.xcworkspace/
+**/*.sublime-workspace
+**/*.sublime-project
+
+# CMake files
+**/CMakeCache.txt
+**/CMakeFiles/
+**/Makefile
+
+# Temporary files
+**/*.swp
+**/*.swo
+**/*.log
+
+# Backup files
+**/*.bak
+
+# OpenFrameworks compiled libraries (for example, the lib/ directory)
+**/lib/
+
+# Data or assets that can be regenerated or don't need to be versioned
+**/*.o
+**/*.a
+**/*.lib
+
